@@ -1,0 +1,21 @@
+{
+    "name": "breda/faker-provider-english-words",
+    "description": "A Faker provider for English words.",
+    "keywords": ["faker", "fixtures", "data"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bouchaala Reda",
+            "email": "bouchaala.reda@gmail.com",
+            "homepage": "https://breda.github.io/"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "BReda\\Faker\\": "src/Faker" }
+    },
+    "require": {
+        "php": "^7.0",
+        "fzaninotto/faker": "^1.6"
+    }
+}
