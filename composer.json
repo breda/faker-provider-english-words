@@ -1,7 +1,7 @@
 {
     "name": "breda/faker-provider-english-words",
     "description": "A Faker provider for English words.",
-    "keywords": ["faker", "fixtures", "data"],
+    "keywords": ["php", "faker", "fixtures", "data"],
     "type": "library",
     "license": "MIT",
     "authors": [

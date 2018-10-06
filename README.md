@@ -1,3 +1,4 @@
+
 # English Words  Provider for PHP's Faker Library
 
 #### Why English words? Let me explain.
@@ -6,6 +7,11 @@ First of all, look at this [link](https://stackoverflow.com/questions/33270023/p
 Basically, the default [Lorem](https://github.com/fzaninotto/Faker/blob/master/src/Faker/Provider/Lorem.php) provider that comes with the library is very limited when generating __unique__ words. The internal lorem-ipsum words-list comes with 182 unique words only. 
 
 This provider does just one thing: It extends the default Lorem provider, and changes the word-list with English words (I got the dictionary from [here](https://github.com/dwyl/english-words), I removed a couple of lines however), which contain about __400k__ words.
+
+#### Install
+```shell
+$ composer require --dev breda/faker-provider-english-words
+```
 
 #### Usage
 ```php
@@ -42,3 +48,4 @@ foreach(range(0, 200000) as $i) {
 ```
 
 And that's it!
+
